@@ -1,5 +1,6 @@
 import { type AppType } from "next/app";
 import { Inter } from "next/font/google";
+import { WalletContextProvider } from "@/hooks/WalletContext";
 
 import "@/styles/globals.css";
 
@@ -11,7 +12,9 @@ const inter = Inter({
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <main className={`font-sans ${inter.variable}`}>
-      <Component {...pageProps} />
+      <WalletContextProvider>
+        <Component {...pageProps} />
+      </WalletContextProvider>
     </main>
   );
 };
