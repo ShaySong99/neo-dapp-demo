@@ -22,3 +22,10 @@ Here is a list of wallets, there may be other available wallets to be added.
 
 - [OneGate](https://onegate.space/)
 - [Neoline Mobile](https://neoline.io/en/)
+
+## Development
+
+```bash
+yarn
+yarn dev
+```

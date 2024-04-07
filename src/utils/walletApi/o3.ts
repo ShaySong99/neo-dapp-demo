@@ -53,6 +53,9 @@ const init: WalletApi["init"] = async (onUpdate) => {
     let neoDapiN3Ready = false;
 
     setTimeout(() => {
+      if (onceInit) {
+        return;
+      }
       resolve(undefined);
       alert("O3 Wallet not found");
     }, 1500);
