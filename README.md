@@ -1,8 +1,10 @@
 # Neo Dapp Demo
 
+The code of [neo dapp demo](https://neo-dapp-demo.vercel.app/).
+
 Example of how to invoke the smart contract with neo wallet.
 
-The following mentioned wallets are included in the [demo](https://neo-dapp-demo.vercel.app/).
+The following mentioned wallets are included in the demo.
 
 ## Available Wallets
 
